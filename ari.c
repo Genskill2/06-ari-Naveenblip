@@ -9,7 +9,7 @@ string ari (string s)
  int wc=1;
  int lc=0;
  int sc=1;
- for(int i=0;i<len(s);i++)
+ for(int i=0;i<strlen(s);i++)
   {
    if(isalpha(s[i]))
    {
