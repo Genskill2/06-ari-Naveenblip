@@ -28,8 +28,8 @@ string ari (string s)
 float wcal = ((float)lc/wc)*4.71;
 float ccal = ((float)wc/sc)*0.5;
 float lev = wcal + ccal - 21.43;
-int ari = (int)ceil(read);
-switch (ari lev)
+int ari = (int)ceil(lev);
+switch (ari)
 {
  
         case 1: 
